@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+}
+
+#main {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#scoreContainer {
+    position: absolute;
+    height: 250px;
+    width: 180px;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+}
+
+#chatContainer {
+    display: flex;
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    align-items: flex-end;
+    margin-top: 250px;
+}
+
+#chat {
+    padding: 5px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+input {
+    width: 200px;
+}
+
+img {
+    display: none;
+}
